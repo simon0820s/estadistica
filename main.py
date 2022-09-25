@@ -5,11 +5,12 @@ def main():
     n=int(input("cuantos datos desea ingresar? "))
 
     for i in range(0,n):
-        ent=input("ingrese el dato #"+str(i+1)+" ")
+        ent=float(input("ingrese el dato #"+str(i+1)+" "))
         lista.append(ent)
 
     tabla=Tabla(name,n,lista)
     print(tabla.printTab())
+    print(tabla.promedio())
 
 
 if __name__=='__main__':
