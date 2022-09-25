@@ -1,9 +1,21 @@
 class Tabla:
     #Constructor
-    def __init__(self,tabla=[],name=""):
+    def __init__(self,name="",cantidad=None,tabla=[]):
         self._name=name
         self._tabla=tabla
-    
+        self._cantidad=cantidad
+
+    #Metodos setter y getter cantidad
+    @property
+    def cantidad(self):
+        return self._cantidad
+    @cantidad.setter
+    def cantidad(self,value):
+        self._cantidad=value
+    @cantidad.deleter
+    def cantidad(self):
+        del self._cantidad
+
     #Metodos setter y getter Name
     @property
     def name(self):

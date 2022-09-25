@@ -8,7 +8,7 @@ def main():
         ent=input("ingrese el dato #"+str(i+1)+" ")
         lista.append(ent)
 
-    tabla=Tabla(lista,name)
+    tabla=Tabla(name,n,lista)
     print(tabla.printTab())
 
 
