@@ -1,0 +1,5 @@
+*ingreso y guardado de la tabla
+*creación de los metodos
+*formulas
+*creación de la clase
+*output
