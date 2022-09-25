@@ -1,0 +1,53 @@
+Consola --
+pwd :: ver la ruta en la que nos encontramos
+cd :: para retroceder a la raiz de sistema
+cd .. :: retroceder un nivel en la ruta del sistema
+ls :: para listar los elementos dentro del directorio
+
+
+Git --
+*git init :: Para iniciar el repositorio de git hub en la carpeta
+*git status :: Mostrar en consola el estado 
+*git branch "NAME" :: crear una nueva rama en mi repositorio
+*git commit -am "" :: crear un nuevo commmit y agregarle un comentario el cualva entre las comillas
+*git push :: subir los cambios de mi commit a el repositorio de git hub
+*git pull :: bajar el commit en la nube
+*git diff :: diferencias entre el commit antiguo y lo actual
+*git log :: ver el historial de los commits
+*git merge :: fuciónar una rama externa a la actual
+*git reset :: sirve para deshacer los cambios actuales y volver a un commmit antiguo
+*git tag -a v0.1 -m "MESSAGE" "CODE" :: crear un tag en las primeras comillas va el mensaje y en las segundas va el codigo del commit
+*git tag :: se muestra cada uno de los tags
+*git show-ref --tags :: muestra los tags con su información basica
+*git push origin --tags :: sirve para enviar los tags a mi repositorio de git hub
+*git push origin :refs/tags/"NAME" :: sirve para borrar un tag que uno no desea
+*git checkout "NAME" :: cambia la rama en la que nos encontramos
+*git branch :: muestra ramas
+*git show-branch --all :: para ver la historia de las ramas
+*gitk :: historia de manera grafica
+*git clone "NAME" :: para clonar un repositorio ya existente y traerlo a mi pc
+*esc shift zz :: para salir del editor de mensajes para commits
+*git stash :: para guardar cosas de manera parcial en mi repositorio de git hub
+*git stash pop :: para activar el stash y quedar en los cambios guardados
+*git stash branch "NAME" :: para guarduar mi stash en otra rama
+*git stash drop :: para eliminar mi stash
+*git clean --dry-run :: para borrar los archivos erroneos
+*git cherry-pick "HASH" :: para traer un commit antiguo a el head de mi rama
+*git branch -D "NAME" :: eliminar una rama
+*git reflog :: para ver toda la hisotira de las ramas "El comando de la verdad, nada se le escapa"
+*git reset --HARD :: para resetear todo a el commit que se desee "UN COMANDO DE EL CIELO"
+*git commit --amend :: se agregan los cambios de add a el commit anterior, no se crea otro
+*git grep -n "PALABRA" :: muestra todos los lugares donde se usa una palabra en especifico
+*git grep -c "PALABRA" :: ver cuantas veces uso la palabra
+*git log -S "PALABRA" :: buscar palabras en mis commits
+*git short log -sn --all --no-merges :: para ver cuantos commits ha echo cada uno de los colaboradores
+*git blame "ARCHIVO" ver el historial de modificaciónes de un archivo
+*git blame "ARCHIVO" -L#,# -c :: para ver quien modifico el archivo y se pone desde que linea hasta cual, los numerales se reeemplazan por los valores de las lineas
+*git branch -a :: para ver mis ramas locales y remotas
+
+
+
+
+
+
+ 
