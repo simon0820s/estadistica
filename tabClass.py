@@ -44,3 +44,8 @@ class Tabla:
     def printTab(self):
         return(f'''Tabla: {self._name}:
  {self.tabla}''')
+
+    def promedio(self):
+        promedio=sum(self._tabla)/self._cantidad
+        return promedio
+
